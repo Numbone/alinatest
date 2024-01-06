@@ -1,8 +1,8 @@
-app/build
-app/node_modules
-app/.idea
-app//storybook-static
-app/.loki/report.html
-app/.loki/report.json
-app//reports
-json-server/node_modules
+api/build
+api/node_modules
+api/.idea
+api//storybook-static
+api/.loki/report.html
+api/.loki/report.json
+api//reports
+myblog/node_modules

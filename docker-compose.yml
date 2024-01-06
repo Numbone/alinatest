@@ -1,10 +1,18 @@
-version: '3'
+version: '3.8'
 services:
-  react-app:
-    build:
-      context: .
-      dockerfile: Dockerfile
+  api:
+    build: ./api
+    container_name: api_c
     ports:
-      - "3000:3000"
+       - '8000:8000'
     volumes:
-      - .:/usr/src/app
+      - ./api:./app
+      - ./app/node_modules
+  react-app:
+    build: ./myblog
+    container_name: myblog_c
+    ports:
+       - '3000:3000'
+    stdin_open: true
+    tty: true
+    
