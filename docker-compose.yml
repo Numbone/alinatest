@@ -5,9 +5,6 @@ services:
     container_name: api_c
     ports:
        - '8000:8000'
-    volumes:
-      - ./api:./app
-      - ./app/node_modules
   react-app:
     build: ./myblog
     container_name: myblog_c
