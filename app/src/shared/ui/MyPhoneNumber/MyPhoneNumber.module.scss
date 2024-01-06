@@ -1,0 +1,26 @@
+.input{
+    background: transparent;
+    border: none;
+    outline: none;
+    text-shadow: 0 0 0 var(--primary-color);
+    border-bottom: 1px solid #969696;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+}
+
+.label{
+    color: #2B2B2B;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 15px;
+}
+
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}

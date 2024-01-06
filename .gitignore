@@ -1,0 +1,8 @@
+app/build
+app/node_modules
+app/.idea
+app//storybook-static
+app/.loki/report.html
+app/.loki/report.json
+app//reports
+json-server/node_modules

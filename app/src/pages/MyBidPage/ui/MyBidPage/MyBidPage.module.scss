@@ -1,0 +1,68 @@
+.MyBidPage {
+
+}
+
+.card{
+    background-color: aliceblue;
+}
+
+.table{
+    border-collapse: collapse;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+}
+
+.row {
+    border-bottom: 1px solid #969696;
+    text-align: left;
+    padding: 8px;
+    color: black;
+}
+
+th{
+    text-align: left;
+    color: #233D82;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 40px;
+    letter-spacing: 0em;
+
+
+  }
+
+.icon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 24px;
+    height: max-content;
+}
+
+.input{
+    border: none;
+    outline: none;
+    width: 100%;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    background-color: inherit;
+   
+}
+
+.input_wrapper{
+    background: #E9F5FF;
+    padding: 7px 8px 7px 8px;
+    border-radius: 8px;
+    border: 1px;
+    display: flex;
+    width: 100%;
+    border: 1px solid var(--blue-alina);
+}
+
+.mb{
+    margin-bottom: 40px;
+}

@@ -1,0 +1,49 @@
+.radiobutton_label {
+    display: flex;
+    align-items: center;
+    gap: 3px;
+    cursor: pointer;
+  }
+  
+
+.radiobutton_label  input[type="radio"] {
+    -webkit-appearance: none;
+    appearance: none;
+    margin: 0;
+  
+    font: inherit;
+    color: currentColor;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #233D82;
+    border-radius: 50%;
+    display: grid;
+    place-content: center;
+    transform: translateY(-0.075em);
+  }
+  
+.radiobutton_label  input[type="radio"]::before {
+    content: "";
+    width: 9px;
+    height: 9px;
+    border-radius: 50%;
+    transform: scale(0);
+    transition: 120ms transform ease-in-out;
+    box-shadow: inset 1em 1em var(--form-control-color);
+    /* Windows High Contrast Mode */
+    background: linear-gradient(0deg, #233D82, #233D82),
+linear-gradient(0deg, #E9F5FF, #E9F5FF);
+
+  }
+  
+.radiobutton_label input[type="radio"]:checked::before {
+    transform: scale(1);
+  }
+  
+.text{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    color: #2B2B2B;
+}

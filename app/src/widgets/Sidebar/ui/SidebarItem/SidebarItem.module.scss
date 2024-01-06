@@ -1,0 +1,37 @@
+.item {
+    display: flex;
+    align-items: center;
+    padding: 14px 20px;
+    flex: 1;
+    gap: 12px;
+    justify-content: flex-start;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0em;
+    width: 100%;
+    border-radius: 0 30px 30px 0;
+}
+
+.link {
+    opacity: 1;
+}
+
+.active {
+    background-color: #233D82;
+    color: white;
+    svg{
+        path{
+            stroke: white;
+        }
+  
+    }
+}
+
+.collapsed {
+    .link {
+        opacity: 0;
+        transition: 0.2s opacity;
+        width: 0;
+    }
+}

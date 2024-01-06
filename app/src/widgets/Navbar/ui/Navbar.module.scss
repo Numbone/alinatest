@@ -1,0 +1,31 @@
+.Navbar {
+    width: 100%;
+    height: var(--navbar-height);
+    background: var(--inverted-bg-color);
+    display: flex;
+    align-items: center;
+    padding: 36px 20px 14px 53px;
+}
+
+.links,
+.actions {
+    margin-left: auto;
+}
+
+.mainLink {
+    margin-right: 15px;
+}
+
+.appName {
+    width:100%;
+    color: var(--blue-alina);
+    h2{
+        font-size: 20px;
+        font-weight: 600 !important;
+        line-height: 24px;
+        letter-spacing: 0em;
+    }
+
+
+
+}

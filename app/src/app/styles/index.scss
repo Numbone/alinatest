@@ -1,0 +1,54 @@
+@import "reset";
+@import "variables/global";
+@import "themes/normal";
+@import "themes/dark";
+@import "themes/orange";
+
+.app,
+.app_modal,
+.app_drawer {
+    font: var(--font-m);
+    // color: var(--primary-color);
+    font-family: 'Inter', sans-serif;
+}
+
+.app {
+    background: var(--bg-color);
+    min-height: 100vh;
+    display: flex;
+}
+
+.content-page {
+    // display: flex;
+    flex: 1;
+}
+
+*::-webkit-scrollbar {
+    width: 12px;               /* ширина scrollbar */
+    height: 8px;
+}
+
+*::-webkit-scrollbar-track {
+    background: var(--bg-color);        /* цвет дорожки */
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #FFF;    /* цвет плашки */
+    border-radius: 20px;       /* закругления плашки */
+    border: 2px solid #FFF;  /* padding вокруг плашки */
+}
+
+.react-datepicker__header{
+    background-color: transparent !important;
+    border: transparent !important;
+}
+
+.react-datepicker{
+    border: transparent !important;
+    font-family:"Inter", sans-serif !important;
+}
+
+.react-datepicker__day--keyboard-selected{
+    background-color: #233D82 !important;
+    color: white !important;
+}
